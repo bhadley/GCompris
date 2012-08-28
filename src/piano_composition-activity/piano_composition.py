@@ -131,7 +131,7 @@ class Gcompris_piano_composition:
         if keyboardDescription:
             textBox(keyboardText, 200, 430, self, 225, stroke_color='purple')
 
-        # ADD BUTTONS    
+        # ADD BUTTONS
 
         self.eraseAllButton = textButton(100, 70, _("Erase All Notes"), self, 'purple', 80)
 
@@ -627,7 +627,7 @@ dialogue to\nenable the sound."), stop_board)
         if not self._bachEasterEggDone and '-5617' in s:
             self.responsePic = goocanvas.Image(
                 parent=self.rootitem,
-                pixbuf=gcompris.utils.load_pixmap('piano_composition/bach.png'),
+                pixbuf=gcompris.utils.load_pixmap('piano_composition/bach.jpg'),
                 x=250,
                 y=50
                 )
@@ -636,7 +636,7 @@ dialogue to\nenable the sound."), stop_board)
         if not self._mozartEasterEggDone and '523248685848383244284428' in r:
             self.responsePic = goocanvas.Image(
                 parent=self.rootitem,
-                pixbuf=gcompris.utils.load_pixmap('piano_composition/mozart.png'),
+                pixbuf=gcompris.utils.load_pixmap('piano_composition/mozart.jpg'),
                 x=160,
                 y=80
                 )
@@ -657,7 +657,7 @@ dialogue to\nenable the sound."), stop_board)
         if not self._gsoc2012EasterEggGone and '14181814343838345458585481' in r:
             self.responsePic = goocanvas.Image(
                 parent=self.rootitem,
-                pixbuf=gcompris.utils.load_pixmap('piano_composition/gsoc2012.png'),
+                pixbuf=gcompris.utils.load_pixmap('piano_composition/gsoc2012.jpg'),
                 x= -20,
                 y=10
                 )

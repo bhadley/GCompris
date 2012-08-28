@@ -145,17 +145,17 @@ class Staff():
       self.noteSpacingX = 27 #distance between each note when appended to staff
       self.dynamicNoteSpacing = False #adjust note spacing according to space needed by each note
       self.currentLineNum = 1    #the line number (1,2,3) you're currently writing notes to
-      self.currentNoteType = 4 #the note type you're currently using to write to the 
+      self.currentNoteType = 4 #the note type you're currently using to write to the
       # musical staff, could be 4 (quarter), 8 (eighth), 2 (half) or 1 (whole)
 
       # NOTE & PLAY FORMATTING
       self.colorCodeNotes = True # optionally set to False to mark all notes black
       self.labelBeatNumbers = False # label the beat numbers above each note
       # (used in play-rhythm activity)
-      self.drawPlayingLine = False # draw vertical line on staff to follow the beat 
+      self.drawPlayingLine = False # draw vertical line on staff to follow the beat
       # as the comp370osition is being played
 
-      self.notReadyToPlay = False #set to True when staff is not ready to 
+      self.notReadyToPlay = False #set to True when staff is not ready to
       #play composition (something else is going on for example)
 
       self.noteList = [] #list of note objects written to staff
@@ -1425,7 +1425,7 @@ def drawBasicPlayHomePagePart1(self):
     goocanvas.Image(
         parent=self.rootitem,
         x=0, y=0,
-        pixbuf=gcompris.utils.load_pixmap('piano_composition/playActivities/background/' + str(randint(1, 6)) + '.png')
+        pixbuf=gcompris.utils.load_pixmap('piano_composition/playActivities/background/' + str(randint(1, 6)) + '.jpg')
         )
 
     if hasattr(self, 'staff'):

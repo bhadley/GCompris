@@ -25,7 +25,7 @@ x = 290
 y = 370
 _title = Chickens
 _text = The chichen goes "cluck, cackle, cluck". Chickens have over 200 different noises they can use to communicate.
-image = chicken.JPG
+image = chicken.jpg
 music =chickens.ogg
 _shortPrompt = This animal lays eggs.
 
@@ -43,7 +43,7 @@ x = 735
 y = 380
 _title = Cat
 _text = The cat goes "meow, meow". Cats usually hate water because their fur doesn't stay warm when it is wet.
-image = cat.JPG
+image = cat.jpg
 music = cat.ogg
 _shortPrompt = This pet likes to chase mice.
 
